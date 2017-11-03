@@ -1,5 +1,5 @@
 <section class="container">
-  <div class="row">
+  <div class="row articles_list">
 
 <?php
 // args
@@ -27,5 +27,8 @@ wp_reset_postdata();
 
  ?>
 
+  </div>
+  <div class="row button_more">
+    <a href="#" class="button" title="read more"> + d'articles</a>
   </div>
 </section>
